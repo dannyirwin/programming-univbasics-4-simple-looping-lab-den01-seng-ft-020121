@@ -28,6 +28,7 @@ def return_string_array(arr)
   result_arr = []
   i = 0 
   while arr[i] do
+    i += 1
     result_arr << arr[i].to_s
   end
   result_arr
